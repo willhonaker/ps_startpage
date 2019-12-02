@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'SST';
+    src: url('SST/SST\ Light.ttf');
+}
+
+* {
+    outline: none;
+}
+
+html {
+	background: url('5cm.jpg') no-repeat;
+	background-size: 100%;
+	font-family: 'SST';
+	font-size: 12px;
+}
+
+#logo {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: ;
+	left: 0; right: 350;
+	height: 386;
+    width: 298;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#parent {
+    width: 648;
+    height: 418;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 100;
+    right: 0; left: 0;
+}
+
+#playstation {
+    position: absolute;
+    margin: auto;
+    height: 86px;
+    width: 298px;
+    top: 0; bottom: 332;
+    right: 0; left: 350;
+    background: #fff
+}
+
+#adobe {
+    position: absolute;
+    margin: auto;
+    height: 86px;
+    width: 298px;
+    top: 0; bottom: 132;
+    right: 0; left: 350;
+    background: #fff
+}
+
+#other {
+    position: absolute;
+    margin: auto;
+    height: 86px;
+    width: 298px;
+    top: 68; bottom: 0;
+    right: 0; left: 350;
+    background: #fff
+}
+
+li {
+    display: inline;
+    padding-right: 16;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 6;
+}
+
+
